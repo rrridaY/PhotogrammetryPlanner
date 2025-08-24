@@ -2,6 +2,8 @@
 import React from "react";
 import { Polyline, Tooltip } from "react-leaflet";
 
+import calculateDistance from "../utils/calculateDistance";
+
 const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick }) => {
     const getEdgeColor = (edgeId) => {
         return edgeId === selectedEdge ? "#ff0000" : "#000000";
@@ -25,6 +27,13 @@ const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick }) => {
                     [endNode.latitude, endNode.longitude]
                 ];
 
+                const distance = calculateDistance(
+                    startNode.latitude,
+                    startNode.longitude,
+                    endNode.latitude,
+                    endNode.longitude
+                );
+
                 return (
                     <Polyline
                         key={edgeId}
@@ -44,7 +53,8 @@ const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick }) => {
                                 <strong>{edge.name}</strong><br />
                                 ID: {edgeId}<br />
                                 開始: {startNode.name} (ID: {edge.start})<br />
-                                終了: {endNode.name} (ID: {edge.end})
+                                終了: {endNode.name} (ID: {edge.end})<br />
+                                メートル: {distance.toFixed(2)}
                             </div>
                         </Tooltip>
                     </Polyline>
