@@ -1,0 +1,672 @@
+{
+  "nodes": {
+    "3": {
+      "name": "Node 3",
+      "latitude": 34.743091409017254,
+      "longitude": 136.52409553527835,
+      "entrance": false
+    },
+    "4": {
+      "name": "Node 4",
+      "latitude": 34.74283684098331,
+      "longitude": 136.52517914772037,
+      "entrance": false
+    },
+    "5": {
+      "name": "Node 5",
+      "latitude": 34.74275639421615,
+      "longitude": 136.52548357844356,
+      "entrance": false
+    },
+    "6": {
+      "name": "Node 6",
+      "latitude": 34.74233652694089,
+      "longitude": 136.52531996369362,
+      "entrance": false
+    },
+    "7": {
+      "name": "Node 7",
+      "latitude": 34.74210290677837,
+      "longitude": 136.52523949742317,
+      "entrance": false
+    },
+    "8": {
+      "name": "Node 8",
+      "latitude": 34.74201914553714,
+      "longitude": 136.52520596981051,
+      "entrance": false
+    },
+    "9": {
+      "name": "第2食堂入口",
+      "latitude": 34.74244562651683,
+      "longitude": 136.52510136365893,
+      "entrance": true
+    },
+    "10": {
+      "name": "Node 10",
+      "latitude": 34.741743929597966,
+      "longitude": 136.52571424841884,
+      "entrance": false
+    },
+    "11": {
+      "name": "Node 11",
+      "latitude": 34.743450660890794,
+      "longitude": 136.52571558952334,
+      "entrance": false
+    },
+    "13": {
+      "name": "Node 13",
+      "latitude": 34.743475170772456,
+      "longitude": 136.52424037456515,
+      "entrance": false
+    },
+    "14": {
+      "name": "Node 14",
+      "latitude": 34.74380991005814,
+      "longitude": 136.52445763349536,
+      "entrance": false
+    },
+    "15": {
+      "name": "Node 15",
+      "latitude": 34.74366003791137,
+      "longitude": 136.5248277783394,
+      "entrance": false
+    },
+    "16": {
+      "name": "Node 16",
+      "latitude": 34.74156290763315,
+      "longitude": 136.52590870857242,
+      "entrance": false
+    },
+    "17": {
+      "name": "Node 17",
+      "latitude": 34.741014096381534,
+      "longitude": 136.5263740718365,
+      "entrance": false
+    },
+    "18": {
+      "name": "Node 18",
+      "latitude": 34.74115736071449,
+      "longitude": 136.52626544237137,
+      "entrance": false
+    },
+    "20": {
+      "name": "合同棟入口",
+      "latitude": 34.740940811069,
+      "longitude": 136.52628086507323,
+      "entrance": true
+    },
+    "21": {
+      "name": "Node 21",
+      "latitude": 34.744336662940995,
+      "longitude": 136.5260696411133,
+      "entrance": false
+    },
+    "22": {
+      "name": "Node 22",
+      "latitude": 34.74457138647015,
+      "longitude": 136.5257960557938,
+      "entrance": false
+    },
+    "23": {
+      "name": "Node 23",
+      "latitude": 34.74465954536984,
+      "longitude": 136.52566865086555,
+      "entrance": false
+    },
+    "24": {
+      "name": "人文学部棟1",
+      "latitude": 34.744531163940906,
+      "longitude": 136.52554526925087,
+      "entrance": true
+    },
+    "25": {
+      "name": "Node 25",
+      "latitude": 34.74433445896103,
+      "longitude": 136.52505442500117,
+      "entrance": false
+    },
+    "26": {
+      "name": "Node 26",
+      "latitude": 34.74474439822194,
+      "longitude": 136.52555197477344,
+      "entrance": false
+    },
+    "27": {
+      "name": "Node 27",
+      "latitude": 34.742975694123146,
+      "longitude": 136.52523547410965,
+      "entrance": false
+    },
+    "28": {
+      "name": "人文学部棟2",
+      "latitude": 34.74430690920657,
+      "longitude": 136.52523681521416,
+      "entrance": true
+    },
+    "29": {
+      "name": "Node 29",
+      "latitude": 34.74439727236683,
+      "longitude": 136.52513489127162,
+      "entrance": false
+    },
+    "30": {
+      "name": "Node 30",
+      "latitude": 34.74488545212087,
+      "longitude": 136.52438923716548,
+      "entrance": false
+    },
+    "31": {
+      "name": "Node 31",
+      "latitude": 34.744803905364925,
+      "longitude": 136.52428194880488,
+      "entrance": false
+    },
+    "32": {
+      "name": "Node 32",
+      "latitude": 34.74431792910946,
+      "longitude": 136.52368381619456,
+      "entrance": false
+    },
+    "33": {
+      "name": "Node 33",
+      "latitude": 34.744034717138646,
+      "longitude": 136.52403250336647,
+      "entrance": false
+    },
+    "34": {
+      "name": "Node 34",
+      "latitude": 34.74386666288375,
+      "longitude": 136.5242423862219,
+      "entrance": false
+    },
+    "35": {
+      "name": "Node 35",
+      "latitude": 34.74495763195256,
+      "longitude": 136.52290999889377,
+      "entrance": false
+    },
+    "36": {
+      "name": "Node 36",
+      "latitude": 34.74510364439633,
+      "longitude": 136.52347594499588,
+      "entrance": false
+    },
+    "37": {
+      "name": "Node 37",
+      "latitude": 34.744658443384154,
+      "longitude": 136.5241062641144,
+      "entrance": false
+    },
+    "38": {
+      "name": "Node 38",
+      "latitude": 34.74524469768184,
+      "longitude": 136.52369320392611,
+      "entrance": true
+    },
+    "39": {
+      "name": "Node 39",
+      "latitude": 34.745273349101026,
+      "longitude": 136.52364626526833,
+      "entrance": false
+    },
+    "40": {
+      "name": "Node 40",
+      "latitude": 34.7453416716759,
+      "longitude": 136.52372941374782,
+      "entrance": false
+    },
+    "41": {
+      "name": "Node 41",
+      "latitude": 34.74514000971954,
+      "longitude": 136.5239842236042,
+      "entrance": false
+    },
+    "42": {
+      "name": "Node 42",
+      "latitude": 34.74510364439633,
+      "longitude": 136.5238957107067,
+      "entrance": false
+    },
+    "43": {
+      "name": "Node 43",
+      "latitude": 34.745032015682575,
+      "longitude": 136.52400702238083,
+      "entrance": false
+    },
+    "44": {
+      "name": "Node 44",
+      "latitude": 34.745302000510286,
+      "longitude": 136.52487337589267,
+      "entrance": false
+    },
+    "45": {
+      "name": "Node 45",
+      "latitude": 34.745685487646675,
+      "longitude": 136.5244120359421,
+      "entrance": false
+    },
+    "46": {
+      "name": "Node 46",
+      "latitude": 34.74588714827138,
+      "longitude": 136.5245032310486,
+      "entrance": false
+    },
+    "47": {
+      "name": "Node 47",
+      "latitude": 34.74598522347924,
+      "longitude": 136.52458637952805,
+      "entrance": true
+    },
+    "48": {
+      "name": "Node 48",
+      "latitude": 34.745930125062195,
+      "longitude": 136.52485728263858,
+      "entrance": true
+    },
+    "49": {
+      "name": "Node 49",
+      "latitude": 34.745543333139985,
+      "longitude": 136.52460247278216,
+      "entrance": false
+    },
+    "50": {
+      "name": "Node 50",
+      "latitude": 34.74545517518347,
+      "longitude": 136.52506381273272,
+      "entrance": true
+    },
+    "51": {
+      "name": "Node 51",
+      "latitude": 34.745162049301584,
+      "longitude": 136.52481168508533,
+      "entrance": false
+    },
+    "52": {
+      "name": "Node 52",
+      "latitude": 34.745208332404715,
+      "longitude": 136.52476072311404,
+      "entrance": false
+    },
+    "53": {
+      "name": "Node 53",
+      "latitude": 34.744951571053086,
+      "longitude": 136.52505576610568,
+      "entrance": false
+    },
+    "54": {
+      "name": "Node 54",
+      "latitude": 34.74505074935217,
+      "longitude": 136.52518853545192,
+      "entrance": false
+    },
+    "55": {
+      "name": "Node 55",
+      "latitude": 34.744810517267055,
+      "longitude": 136.52548760175708,
+      "entrance": false
+    },
+    "56": {
+      "name": "第1体育館",
+      "latitude": 34.74497912059253,
+      "longitude": 136.52569681406024,
+      "entrance": true
+    },
+    "57": {
+      "name": "Node 57",
+      "latitude": 34.74594555262267,
+      "longitude": 136.52440935373306,
+      "entrance": false
+    },
+    "58": {
+      "name": "Node 58",
+      "latitude": 34.74562818508426,
+      "longitude": 136.5240499377251,
+      "entrance": false
+    },
+    "59": {
+      "name": "Node 59",
+      "latitude": 34.74580009265224,
+      "longitude": 136.52384608983996,
+      "entrance": true
+    },
+    "60": {
+      "name": "Node 60",
+      "latitude": 34.7455113758916,
+      "longitude": 136.52354031801227,
+      "entrance": false
+    },
+    "61": {
+      "name": "Node 61",
+      "latitude": 34.74634887211002,
+      "longitude": 136.5239104628563,
+      "entrance": false
+    }
+  },
+  "edges": {
+    "3": {
+      "name": "Edge 3",
+      "start": "3",
+      "end": "4"
+    },
+    "4": {
+      "name": "Edge 4",
+      "start": "4",
+      "end": "5"
+    },
+    "5": {
+      "name": "Edge 5",
+      "start": "5",
+      "end": "6"
+    },
+    "6": {
+      "name": "Edge 6",
+      "start": "6",
+      "end": "9"
+    },
+    "7": {
+      "name": "Edge 7",
+      "start": "6",
+      "end": "7"
+    },
+    "8": {
+      "name": "Edge 8",
+      "start": "7",
+      "end": "8"
+    },
+    "9": {
+      "name": "Edge 9",
+      "start": "7",
+      "end": "10"
+    },
+    "10": {
+      "name": "Edge 10",
+      "start": "5",
+      "end": "11"
+    },
+    "11": {
+      "name": "Edge 11",
+      "start": "3",
+      "end": "13"
+    },
+    "12": {
+      "name": "Edge 12",
+      "start": "13",
+      "end": "14"
+    },
+    "13": {
+      "name": "Edge 13",
+      "start": "14",
+      "end": "15"
+    },
+    "14": {
+      "name": "Edge 14",
+      "start": "11",
+      "end": "15"
+    },
+    "15": {
+      "name": "Edge 15",
+      "start": "16",
+      "end": "18"
+    },
+    "16": {
+      "name": "Edge 16",
+      "start": "18",
+      "end": "17"
+    },
+    "17": {
+      "name": "Edge 17",
+      "start": "10",
+      "end": "16"
+    },
+    "18": {
+      "name": "Edge 18",
+      "start": "17",
+      "end": "20"
+    },
+    "20": {
+      "name": "Edge 20",
+      "start": "23",
+      "end": "24"
+    },
+    "21": {
+      "name": "Edge 21",
+      "start": "22",
+      "end": "23"
+    },
+    "22": {
+      "name": "Edge 22",
+      "start": "21",
+      "end": "22"
+    },
+    "23": {
+      "name": "Edge 23",
+      "start": "11",
+      "end": "21"
+    },
+    "24": {
+      "name": "Edge 24",
+      "start": "14",
+      "end": "25"
+    },
+    "26": {
+      "name": "Edge 26",
+      "start": "26",
+      "end": "23"
+    },
+    "27": {
+      "name": "Edge 27",
+      "start": "4",
+      "end": "27"
+    },
+    "30": {
+      "name": "Edge 30",
+      "start": "29",
+      "end": "25"
+    },
+    "31": {
+      "name": "Edge 31",
+      "start": "29",
+      "end": "26"
+    },
+    "32": {
+      "name": "Edge 32",
+      "start": "29",
+      "end": "28"
+    },
+    "33": {
+      "name": "Edge 33",
+      "start": "55",
+      "end": "54"
+    },
+    "34": {
+      "name": "Edge 34",
+      "start": "55",
+      "end": "26"
+    },
+    "35": {
+      "name": "Edge 35",
+      "start": "44",
+      "end": "54"
+    },
+    "36": {
+      "name": "Edge 36",
+      "start": "52",
+      "end": "44"
+    },
+    "37": {
+      "name": "Edge 37",
+      "start": "51",
+      "end": "52"
+    },
+    "38": {
+      "name": "Edge 38",
+      "start": "52",
+      "end": "30"
+    },
+    "39": {
+      "name": "Edge 39",
+      "start": "31",
+      "end": "30"
+    },
+    "40": {
+      "name": "Edge 40",
+      "start": "25",
+      "end": "30"
+    },
+    "41": {
+      "name": "Edge 41",
+      "start": "43",
+      "end": "31"
+    },
+    "42": {
+      "name": "Edge 42",
+      "start": "42",
+      "end": "43"
+    },
+    "43": {
+      "name": "Edge 43",
+      "start": "41",
+      "end": "43"
+    },
+    "44": {
+      "name": "Edge 44",
+      "start": "41",
+      "end": "42"
+    },
+    "45": {
+      "name": "Edge 45",
+      "start": "39",
+      "end": "38"
+    },
+    "46": {
+      "name": "Edge 46",
+      "start": "39",
+      "end": "36"
+    },
+    "47": {
+      "name": "Edge 47",
+      "start": "39",
+      "end": "40"
+    },
+    "48": {
+      "name": "Edge 48",
+      "start": "40",
+      "end": "41"
+    },
+    "49": {
+      "name": "Edge 49",
+      "start": "59",
+      "end": "58"
+    },
+    "50": {
+      "name": "Edge 50",
+      "start": "58",
+      "end": "57"
+    },
+    "51": {
+      "name": "Edge 51",
+      "start": "57",
+      "end": "61"
+    },
+    "52": {
+      "name": "Edge 52",
+      "start": "46",
+      "end": "47"
+    },
+    "53": {
+      "name": "Edge 53",
+      "start": "46",
+      "end": "45"
+    },
+    "54": {
+      "name": "Edge 54",
+      "start": "49",
+      "end": "45"
+    },
+    "55": {
+      "name": "Edge 55",
+      "start": "46",
+      "end": "48"
+    },
+    "56": {
+      "name": "Edge 56",
+      "start": "49",
+      "end": "48"
+    },
+    "57": {
+      "name": "Edge 57",
+      "start": "44",
+      "end": "49"
+    },
+    "58": {
+      "name": "Edge 58",
+      "start": "44",
+      "end": "50"
+    },
+    "59": {
+      "name": "Edge 59",
+      "start": "55",
+      "end": "56"
+    },
+    "60": {
+      "name": "Edge 60",
+      "start": "57",
+      "end": "46"
+    },
+    "61": {
+      "name": "Edge 61",
+      "start": "40",
+      "end": "58"
+    },
+    "62": {
+      "name": "Edge 62",
+      "start": "40",
+      "end": "60"
+    },
+    "63": {
+      "name": "Edge 63",
+      "start": "36",
+      "end": "37"
+    },
+    "64": {
+      "name": "Edge 64",
+      "start": "37",
+      "end": "31"
+    },
+    "65": {
+      "name": "Edge 65",
+      "start": "37",
+      "end": "32"
+    },
+    "66": {
+      "name": "Edge 66",
+      "start": "35",
+      "end": "32"
+    },
+    "67": {
+      "name": "Edge 67",
+      "start": "35",
+      "end": "36"
+    },
+    "68": {
+      "name": "Edge 68",
+      "start": "32",
+      "end": "33"
+    },
+    "69": {
+      "name": "Edge 69",
+      "start": "33",
+      "end": "34"
+    },
+    "70": {
+      "name": "Edge 70",
+      "start": "34",
+      "end": "14"
+    }
+  },
+  "metadata": {
+    "nextnodeid": 62,
+    "nextedgeid": 71
+  }
+}
