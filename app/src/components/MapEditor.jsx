@@ -13,6 +13,7 @@ import MapEdges from "./MapEdges";
 import MapEvents from "./MapEvents";
 import EditModal from "./EditModal";
 import LinkingMode from "./LinkingMode";
+import SelectedEdgeList from "./SelectedEdgeList";
 import "leaflet/dist/leaflet.css";
 
 const MapEditor = () => {
@@ -31,6 +32,7 @@ const MapEditor = () => {
     const [isLinkingMode, setisLinkingMode] = useState(false);
     const [linkingFromNode, setLinkingFromNode] = useState(null);
     const [editModal, setEditModal] = useState({ isOpen: false, type: null, data: null });
+    const [selectedEdgeList, setSelectedEdgeList] = useState([]); //選択されているedgeのリスト
 
     useEffect(() => {
         const loadData = async () => {
@@ -158,10 +160,19 @@ const MapEditor = () => {
     const handleEdgeClick = (edgeId) => {
         setSelectedEdge(edgeId);
         setSelectedNode(null);
-        setEditModal({
-            isOpen: true,
-            type: 'edge',
-            data: { id: edgeId, ...edges[edgeId] }
+        // setEditModal({
+        //     isOpen: true,
+        //     type: 'edge',
+        //     data: { id: edgeId, ...edges[edgeId] }
+        // });
+
+        // selectedEdgeListにedgeIdを追加または削除
+        setSelectedEdgeList((prevList) => {
+            if (prevList.includes(edgeId)) {
+                return prevList.filter((id) => id !== edgeId);
+            } else {
+                return [...prevList, edgeId];
+            }
         });
     };
 
@@ -282,6 +293,7 @@ const MapEditor = () => {
                 <div style={{ width: '300px', padding: '10px', borderLeft: '1px solid #ccc', overflow: 'auto' }}>
                     <NodeForm onAddNode={handleAddNode} />
                     <EdgeForm onAddEdge={handleAddEdge} />
+                    <SelectedEdgeList selectedEdgeList={selectedEdgeList} ClearSelection={() => setSelectedEdgeList([])} />
                     <NodeList nodes={nodes} onDeleteNode={handleDeleteNode} />
                     <EdgeList edges={edges} onDeleteEdge={handleDeleteEdge} />
                 </div>
