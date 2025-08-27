@@ -10,7 +10,7 @@ const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick }) => {
     };
 
     const getEdgeWeight = (edgeId) => {
-        return edgeId === selectedEdge ? 4 : 2;
+        return edgeId === selectedEdge ? 40 : 20;
     };
 
     return (
