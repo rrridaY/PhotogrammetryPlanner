@@ -135,7 +135,7 @@ const MapEditor = () => {
     };
 
     const handleNodeClick = (nodeId) => {
-        if (isLinkingMode) {
+        if (isLinkingMode) { // 新規エッジ作成中のノードクリック
             if (linkingFromNode && linkingFromNode !== nodeId) {
                 const newEdge = {
                     name: `Edge ${metadata.nextedgeid}`,
@@ -146,7 +146,7 @@ const MapEditor = () => {
             }
             setisLinkingMode(false);
             setLinkingFromNode(null);
-        } else {
+        } else { // 通常のノードクリック
             setSelectedNode(nodeId);
             setSelectedEdge(null);
             setEditModal({
@@ -278,6 +278,7 @@ const MapEditor = () => {
                             nodes={nodes}
                             selectedEdge={selectedEdge}
                             onEdgeClick={handleEdgeClick}
+                            selectedEdgeList={selectedEdgeList}
                         />
                         
                         <MapNodes 
