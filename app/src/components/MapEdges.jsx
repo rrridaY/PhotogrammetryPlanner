@@ -4,10 +4,10 @@ import { Polyline, Tooltip } from "react-leaflet";
 
 import calculateDistance from "../utils/calculateDistance";
 
-const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick }) => {
-    const getEdgeColor = (edgeId) => {
-        return edgeId === selectedEdge ? "#ff0000" : "#000000";
-    };
+const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick, selectedEdgeList }) => {
+    // const getEdgeColor = (edgeId) => {
+    //     return edgeId === selectedEdge ? "#ff0000" : "#000000";
+    // };
 
     const getEdgeWeight = (edgeId) => {
         return edgeId === selectedEdge ? 40 : 20;
@@ -35,12 +35,16 @@ const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick }) => {
                 );
 
                 return (
+                    console.log("Rendering edge:", edgeId, "from", startNode.name, "to", endNode.name),
+                    console.log("Selected edges:", selectedEdgeList),
+                    console.log("Is selected:", selectedEdgeList.includes(edgeId)),
                     <Polyline
                         key={edgeId}
                         positions={positions}
-                        color={getEdgeColor(edgeId)}
+                        // color={selectedEdgeList.includes(edgeId) ? "#ff0000" : "#000000"}
                         weight={getEdgeWeight(edgeId)}
-                        opacity={edgeId === selectedEdge ? 1 : 0.7}
+                        opacity={selectedEdgeList.includes(edgeId) ? 1 : 0.7}
+                        pathOptions={{color: selectedEdgeList.includes(edgeId) ? "#ff0000" : "#000000"}}
                         eventHandlers={{
                             click: (e) => {
                                 e.originalEvent.stopPropagation();
