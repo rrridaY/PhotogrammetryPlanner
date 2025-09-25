@@ -9,9 +9,9 @@ const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick, selectedEdgeList })
     //     return edgeId === selectedEdge ? "#ff0000" : "#000000";
     // };
 
-    const getEdgeWeight = (edgeId) => {
-        return edgeId === selectedEdge ? 40 : 20;
-    };
+    // const getEdgeWeight = (edgeId) => {
+    //     return edgeId === selectedEdge ? 40 : 20;
+    // };
 
     return (
         <>
@@ -42,9 +42,13 @@ const MapEdges = ({ edges, nodes, selectedEdge, onEdgeClick, selectedEdgeList })
                         key={edgeId}
                         positions={positions}
                         // color={selectedEdgeList.includes(edgeId) ? "#ff0000" : "#000000"}
-                        weight={getEdgeWeight(edgeId)}
-                        opacity={selectedEdgeList.includes(edgeId) ? 1 : 0.7}
-                        pathOptions={{color: selectedEdgeList.includes(edgeId) ? "#ff0000" : "#000000"}}
+                        // weight={getEdgeWeight(edgeId)}
+                        // opacity={selectedEdgeList.includes(edgeId) ? 1 : 0.7}
+                        
+                        // クリックで色と太さを変える
+                        pathOptions={{color: selectedEdgeList.includes(edgeId) ? "#ff0000" : "#000000",
+                                    weight: selectedEdgeList.includes(edgeId) ? 15 : 10
+                        }}
                         eventHandlers={{
                             click: (e) => {
                                 e.originalEvent.stopPropagation();
